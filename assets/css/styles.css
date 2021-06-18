@@ -1,8 +1,22 @@
-body {
-    background-color: lightblue ;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+
+}
+
+header{
+
 }
 
 h1 {
     text-align: center;
     color: darkblue;
+}
+
+body {
+    background-color: lightblue ;
 }
