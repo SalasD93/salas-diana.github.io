@@ -1,53 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diana's Portfolio</title>
-
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"/>
 </head>
 <body>
     <header>
         <h1><a href="/">Diana Salas</a></h1>
-        <div>
+        <figure id="me" alt=""></figure>
+        <!-- links to each section -->
+        <nav>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#my-work">My Work</a></li>
                 <li><a href="#contact-me">Contact Me</a></li>
             </ul>
-        </div>
-        <div>
-            <img src="placeholder 200*200">
-        </div>
+        </nav>
     </header>
     <main>
-        <div class="section-container">
+        <div class="container">
             <!-- bio section start -->
-            <section class="about" id="about-me">
-                <h2></h2>
+            <section class="container-section" id="about-me">
+                <h2 class="container-header"></h2>
                 <p></p>
             </section>
             <!-- bio section end -->
             <!-- work section start -->
-            <section class="work" id="my-work">
-                <h2></h2>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <section class="container-section" id="my-work">
+                <h2 class="container-header"></h2>
+                <!-- links to completed work start -->
+                <article class="work">
+                    <h3 class="work-header">Run Buddy<p>HTML/CSS</p></h3>
+                    <a href="" target="_blank">
+                        <div class="work-content"></div>
+                    </a>
+                </article>
+                <article class="work">
+                    <h3 class="work-header">Calculator(Ex)<p>React/JavaScript/CSS</p></h3>
+                    <a href="" target="_blank">
+                        <div class="work-content"></div>
+                    </a>
+                </article>
+                <article class="work">
+                    <h3 class="work-header">Surf Report(Ex)<p>MERN Stack</p></h3>
+                    <a href="" target="_blank">
+                        <div class="work-content"></div>
+                    </a>
+                </article>
+                <article class="work">
+                    <h3 class="work-header">Exercise Tracker(Ex)<p>MERN Stack</p></h3>
+                    <a href="" target="_blank">
+                        <div class="work-content"></div>
+                    </a>
+                </article>
+                <article class="work">
+                    <h3 class="work-header">LED Wall<p>Node/IoT</p></h3>
+                    <a href="" target="_blank">
+                        <div class="work-content"></div>
+                    </a>
+                </article>
+                <!-- links to completed work end -->
             </section>
             <!-- work section end -->
             <!-- contact section start -->
-            <section class="contact" id="contact-me">
-                <h2></h2>
+            <section class="container-section" id="contact-me">
+                <h2 class="container-header"></h2>
                 <ul>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
+                    <li><a>Call</a></li>
+                    <li><a>Email</a></li>
+                    <li><a>GitHub</a></li>
+                    <li><a>LinkedIn</a></li>
                 </ul>
             </section>
             <!-- contact section end -->
