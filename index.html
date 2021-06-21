@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1><a href="/">Diana Salas</a></h1>
+        <h1><a href="#">Diana Salas</a></h1>
         <figure id="me" alt=""></figure>
         <!-- links to each section -->
         <nav>
@@ -21,10 +21,11 @@
         </nav>
     </header>
     <main>
+        <!-- section container begin -->
         <div class="container">
             <!-- bio section start -->
             <section class="container-section" id="about-me">
-                <div class="container-header"><h2>About Me</h2></div>
+                <div class="section-header"><h2>About Me</h2></div>
                 <article class="container-content">
                     <p>I hold an Associate of Science degree in Criminology and Criminal Justice. I obtained my degree in 2014 while studying at Hillsborough Community College in Tampa, FL. I graduated with honors, despite undergoing modified chemotherapy, and I did not utilize a single textbook. I am very ambitious, self-taught, self-motivated, and adaptable. I always strive to be the best. I will always be an asset to any company that employs me.</p>
                     <p>I am currently studying Web Development at the University of Miami through their Coding Bootcamp. I chose this career to expand my capabilities in an effort to enhance the livelihood of my two beautiful boys. They have become my new motivation to accomplish even more than I did before. I always have to succeed for them.</p>
@@ -34,40 +35,40 @@
             <!-- bio section end -->
             <!-- work section start -->
             <section class="container-section" id="my-work">
-                <div><h2 class="container-header">My Work</h2></div>
+                <div class="section-header"><h2>My Work</h2></div>
                 <!-- links to completed work start -->
-                <div class="works">
+                <div class="works" id="works-container">
                     <article class="work">
                         <h3 class="work-header">Run Buddy</h3>
-                        <h4>HTML/CSS</h4>
+                        <h4 class="work-type">HTML/CSS</h4>
                         <a href="https://salasd93.github.io/run-buddy/" target="_blank">
                             <div class="work-content"></div>
                         </a>
                     </article>
                     <article class="work">
                         <h3 class="work-header">Calculator(Ex)</h3>
-                        <h4>React/JavaScript/CSS</h4>
+                        <h4 class="work-type">React/JavaScript/CSS</h4>
                         <a href="https://codepen.io/mjijackson/pen/xOzyGX" target="_blank">
                             <div class="work-content"></div>
                         </a>
                     </article>
                     <article class="work">
                         <h3 class="work-header">Surf Report(Ex)</h3>
-                        <h4>MERN Stack</h4>
+                        <h4 class="work-type">MERN Stack</h4>
                         <a href="https://github.com/Vallsurf/SurfSpot" target="_blank">
                             <div class="work-content"></div>
                         </a>
                     </article>
                     <article class="work">
                         <h3 class="work-header">Exercise Tracker(Ex)</h3>
-                        <h4>MERN Stack</h4>
+                        <h4 class="work-type">MERN Stack</h4>
                         <a href="https://medium.com/@beaucarnes/learn-the-mern-stack-by-building-an-exercise-tracker-mern-tutorial-59c13c1237a1" target="_blank">
                             <div class="work-content"></div>
                         </a>
                     </article>
-                    <article class="work">
+                    <article class="work">                    
                         <h3 class="work-header">LED Wall</h3>
-                        <h4>Node/IoT</h4>
+                        <h4 class="work-type">Node/IoT</h4>
                         <a href="https://github.com/RutgersGRID/pixelwall" target="_blank">
                             <div class="work-content"></div>
                         </a>
@@ -78,7 +79,7 @@
             <!-- work section end -->
             <!-- contact section start -->
             <section class="container-section" id="contact-me">
-                <h2 class="container-header">Contact Me</h2>
+                <div class="section-header"><h2>Contact Me</h2></div>
                 <form action="tel:4075769441">
                     <button type="submit" value="Call Diana Salas">Call Diana Salas</button>
                 </form>
@@ -94,6 +95,7 @@
             </section>
             <!-- contact section end -->
         </div>
+        <!-- section container end -->
     </main>
 </body>
 </html>
