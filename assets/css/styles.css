@@ -6,18 +6,60 @@
 }
 
 :root {
-
-}
-
-header{
-
-}
-
-h1 {
-    text-align: center;
-    color: darkblue;
+--primary-color: #ADD8E6;
+--secondary-color: #00028b;
+--tertiary-color: #00ffff;
+--font-color: #fff;
 }
 
 body {
-    background-color: lightblue ;
+    background-color: lightblue;
+    margin: 0;
 }
+/* style header start */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(45deg, var(--secondary-color), var(--tertiary-color), var(--tertiary-color), var(--tertiary-color), var(--secondary-color));
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 a {
+    font-size: 50px;
+    color: var(--font-color);
+    text-decoration: none;
+}
+/* style background image */
+#me {
+    background-image: url("../images/bg-pic-me.jpg");
+    min-height: 200px;
+    width: 150px;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+/* style nav section links */
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    border: 4px solid black;
+}
+
+header nav ul li {
+    padding: 0 50px;
+    font-size: 2vw;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+/* style header end */
