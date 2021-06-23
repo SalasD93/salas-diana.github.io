@@ -66,7 +66,7 @@ header nav ul li a {
     display: flex;
     flex-basis: 30%;
 }
-
+/* style section headers */
 .section-header {
     display: flex;
     flex-basis: 14%;
@@ -78,7 +78,7 @@ header nav ul li a {
     border-right: 4px solid var(--secondary-color);
 
 }
-
+/* style about me section */
 .bio {
     display: flex;
     flex-direction: column;
@@ -87,17 +87,17 @@ header nav ul li a {
     font-size: 1.5vw;
     text-indent: 1.5em;
 }
-
+/* separate paragraphs */
 .bio p {
     margin: 0.5em 0;
 }
-
+/* work section box */
 .works {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/* work section cards */
 .work {
     display: flex;
     margin: 2vw;
@@ -108,9 +108,9 @@ header nav ul li a {
     position: relative;
     flex: 1 1 40%;
 }
-
+/* style work headers */
 .header-box {
-    flex-basis: 10%;
+    flex: 0 1 25%;
     text-align: center;
     position: absolute;
     top: 25px;
@@ -118,13 +118,40 @@ header nav ul li a {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-left: none;
-    padding: 10px 30px 10px 10px;
+    padding: 10px;
 }
-
-
-#one {
+/* make first work card biggest */
+.first {
     flex-basis: 100%;
 }
+/* button box */
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 75px 0;
+}
+/* style buttons */
+.contact button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50px;
+    height: 4vw;
+    width: 15vw;
+    font-size: 1.25vw;
+    font-weight: bold;
+    opacity: 0.8;
+    background-image: linear-gradient(var(--tertiary-color), #008000, var(--secondary-color));
+    color: #004;
+}
+
+.contact button:hover {
+    box-shadow: 0 0 7px #004;
+}
+
 .flex-basis {
     flex-basis: 86%;
 }
