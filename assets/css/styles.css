@@ -24,16 +24,17 @@ header{
     align-items: center;
     background: linear-gradient(45deg, var(--secondary-color), var(--tertiary-color), var(--tertiary-color), var(--tertiary-color), var(--secondary-color));
 }
-header h1 a::before, header h1 a::after {
-    content: "💙";
-    opacity: 0.5;
-}
-
+/* style header */
 header h1 a {
     font-size: 4vw;
     color: var(--font-color);
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* add content before and after header */
+header h1 a::before, header h1 a::after {
+    content: "💙";
+    opacity: 0.5;
 }
 /* style background image */
 #me {
@@ -44,7 +45,7 @@ header h1 a {
     background-position: center top;
     background-repeat: no-repeat;
 }
-/* style nav section links */
+/* style nav section */
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -141,12 +142,13 @@ header nav ul li a {
     opacity: 1;
     z-index: 9999;
     font-family:'Courier New', Courier, monospace;
+    font-size: 1.5vw;
 }
-
+/* extend first work header box for aesthetics */
 #rb-header {
     padding: 10px 50px;
 }
-
+/* style work card link backgrounds */
 .work-content {
     padding: 20px;
     border-radius: 20px;
@@ -187,7 +189,7 @@ header nav ul li a {
 .flex-basis {
     flex-basis: 86%;
 }
-
+/* style individual work card backgrounds */
 #one {
     background: linear-gradient(45deg, lightgreen, green);
 }
