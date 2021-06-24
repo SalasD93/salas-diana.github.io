@@ -226,14 +226,23 @@ header nav ul li a {
         font-size: 1.5vw;
         margin: 10px 40px;
         justify-content: space-between;
-        width: 250px;
+        width: 275px;
+    }
+}
+
+@media screen and (max-width: 919px) {
+    header nav ul li {
+        padding: 0 50px 5px 50px;
+    }
+    .contact {
+        padding: 10px;
+    }
+    .contact button {
+        margin: 10px;
     }
 }
 /* for screens less than 768px */
 @media screen and (max-width: 768px) {
-    header nav ul li {
-        padding: 0 50px 5px 50px;
-    }
     header nav ul li a {
         font-size: 2.75vw;
     }
@@ -251,12 +260,12 @@ header nav ul li a {
     }
     .contact button {
         font-size: 1.75vw;
-        margin: 10px 20px;
+        margin: 10px 10px;
         justify-content: space-between;
     }
 }
 /* for screens less than 575px */
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
     header h1 a {
         font-size: 6vw;
     }
@@ -291,7 +300,6 @@ header nav ul li a {
         font-size: 3vw;
     }
     .contact {
-        padding: 10px 20px;
         margin: 10px 0;
     }
     .contact button {
@@ -299,6 +307,18 @@ header nav ul li a {
         width: 300px;
         margin: 10px 10px;
         padding: 10px;
-        justify-content: space-between;
+    }
+} */
+
+@media screen and (max-width: 475px) {
+    header nav ul li {
+        padding: 0 30px 5px 30px;
+    }
+    #works-container {
+        padding: 0;
+    }
+    .contact-button {
+        width: 200px;
+
     }
 }
