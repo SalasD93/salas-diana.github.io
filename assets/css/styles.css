@@ -97,13 +97,7 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 85%;
-}
-/* work section container */
-#works-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-basis: 85%;
+    padding: 0 20px 0 25px;
 }
 /* work section cards */
 .work {
@@ -114,6 +108,14 @@ header nav ul li a {
     flex: 1 1 40%;
     background: #aff;
     padding: 5px;
+}
+/* make cards respond to hover */
+.work:hover {
+    transform: scale(1.1);
+}
+/* make first work card biggest */
+.first {
+    flex-basis: 100%;
 }
 /* style work headers */
 .header-box {
@@ -135,10 +137,6 @@ header nav ul li a {
     height: 100%;
     flex: 0 0 30%;
     background: linear-gradient(to bottom, green, blue);
-}
-/* make first work card biggest */
-.first {
-    flex-basis: 100%;
 }
 /* button box */
 .contact {
@@ -172,7 +170,18 @@ header nav ul li a {
     flex-basis: 86%;
 }
 
-/* .break { */
-    /* flex-basis: 100%; */
-    /* height: 0; */
-/* } */
+#one {
+    background: linear-gradient(45deg, lightgreen, green);
+}
+#two {
+    background: linear-gradient(to bottom, yellow, orange, red);
+}
+#three {
+    background: linear-gradient(to bottom, lightblue, skyblue, blue);
+}
+#four {
+    background: linear-gradient(45deg, red, white, blue);
+}
+#five {
+    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);
+}
