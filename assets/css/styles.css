@@ -33,6 +33,7 @@ header h1 a {
     font-size: 4vw;
     color: var(--font-color);
     text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* style background image */
 #me {
@@ -58,6 +59,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: var(--font-color);
+    font-size: 2vw;
 }
 /* style header end */
 /* sections style begins */
@@ -80,6 +82,7 @@ header nav ul li a {
     color: var(--font-color);
     background: var(--tertiary-color);
     border-right: 4px solid var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* style about me section */
 .bio {
@@ -93,6 +96,8 @@ header nav ul li a {
 /* separate paragraphs */
 .bio p {
     margin: 0.5em 0;
+    font-size: 1.25vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /* work section container */
 #works-container {
@@ -135,6 +140,7 @@ header nav ul li a {
     color: #004;
     opacity: 1;
     z-index: 9999;
+    font-family:'Courier New', Courier, monospace;
 }
 
 #rb-header {
