@@ -8,13 +8,13 @@
 :root {
 --primary-color: #ADD8E6;
 --secondary-color: #00028b;
---tertiary-color: #00ffff;
+--tertiary-color: #27e9e9;
 --font-color: #fff;
 --secondary-font-color: #000;
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(140, 220, 247);
 }
 /* style header start */
 header{
@@ -76,7 +76,6 @@ header nav ul li a {
     color: var(--font-color);
     background: var(--tertiary-color);
     border-right: 4px solid var(--secondary-color);
-
 }
 /* style about me section */
 .bio {
@@ -103,7 +102,7 @@ header nav ul li a {
 .work {
     margin: 2vw;
     border-radius: 20px;
-    height: 10vw;
+    height: 15vw;
     position: relative;
     flex: 1 1 40%;
     background: #aff;
@@ -122,12 +121,14 @@ header nav ul li a {
     flex: 0 1 25%;
     text-align: center;
     position: absolute;
-    top: 25px;
-    border: 2px solid #fff;
+    top: 50px;
+    padding: 10px 20px;
+    border: 5px solid #aff;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-left: none;
-    padding: 10px;
+    background: var(--tertiary-color);
+    color: #004;
 }
 
 .work-content {
