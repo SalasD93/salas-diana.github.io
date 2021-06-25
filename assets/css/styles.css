@@ -323,7 +323,7 @@ header nav ul li a {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .contact button {
         width: 100px;
     }
