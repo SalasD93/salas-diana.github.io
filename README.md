@@ -6,7 +6,7 @@ I created this portfolio for a homework assignment for UM Online Coding Bootcamp
 The objective was to use HTML, CSS, Flexbox, and Media Queries to create a personal portfolio in which potential employers can view samples of my completed work.
 
 
-##ACCEPTANCE CRITERIA:
+## ACCEPTANCE CRITERIA:
 
 GIVEN I need to sample a potential employee's previous work
 
@@ -35,7 +35,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 
-##BUILT WITH:
+## BUILT WITH:
 
 -HTML
 
