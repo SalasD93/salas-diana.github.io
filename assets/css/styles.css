@@ -38,7 +38,7 @@ header h1 a::before, header h1 a::after {
 }
 /* style background image */
 #me {
-    background-image: url("../images/bg-pic-me.jpg");
+    background-image: url("../images/ProfilePicCurrent2.jpg");
     min-height: 20vw;
     width: 12vw;
     background-size: contain;
