@@ -79,8 +79,8 @@ header nav ul li a {
     display: flex;
     flex-basis: 14%;
     align-items: center;
-    text-align: right;
-    font-size: 2.5vw;
+    text-align: left;
+    font-size: 2vw;
     color: var(--font-color);
     background: var(--tertiary-color);
     border-right: 4px solid var(--secondary-color);
@@ -324,12 +324,12 @@ header nav ul li a {
     header h1 a {
         font-size: 6vw;
     }
-    header nav ul li {
+    /* header nav ul li {
         padding: 0 30px 5px 30px;
-    }
-    header nav ul li a {
+    } */
+    /* header nav ul li a {
         font-size: 4vw;
-    }
+    } */
     #me {
         height: 25vw;
         width: 15vw;
@@ -340,20 +340,24 @@ header nav ul li a {
     #works-container {
         padding: 0;
     }
-    .contact-button,
+    /* .contact-button,
     .contact-button {
         width: 200px;
 
-    }
+    } */
 }
 
 @media screen and (max-width: 376px) {
+    header nav ul li {
+        padding: 0 10px 5px 10px;
+        font-size: 3vw;
+    }
     .work-header {
         font-size: 3vw;
     }
     .contact button,
     .contact-button {
-        width: 100px;
+        width: 200px;
         font-size: 2.1vw;
     }
 }
