@@ -1,9 +1,9 @@
-# SalasD93.github.io
+# salas-diana.github.io
 This is my personal portfolio.
 
 
-I created this portfolio for a homework assignment for UM Online Coding Bootcamp.
-The objective was to use HTML, CSS, Flexbox, and Media Queries to create a personal portfolio in which potential employers can view samples of my completed work.
+I created this portfolio to showcase my aspirations and qualifications.
+I used HTML, CSS, Flexbox, and Media Queries to create this personal portfolio for potential employers to view samples of my completed works.
 
 
 ## ACCEPTANCE CRITERIA:
@@ -42,19 +42,19 @@ THEN I am presented with a responsive layout that adapts to my viewport
 -CSS
 
 
-The screenshots below exhibit the completed challenge.
+The screenshots below exhibit the completed portfolio.
 
-![Homework Screenshot 1](https://github.com/SalasD93/SalasD93.github.io/blob/main/assets/screenshots/ch2-screenshot1.png?raw=true)
+![Homework Screenshot 1](https://github.com/SalasD93/salas-diana.github.io/blob/main/assets/screenshots/ch2-screenshot1.png?raw=true)
 
-![Homework Screenshot 2](https://github.com/SalasD93/SalasD93.github.io/blob/main/assets/screenshots/ch2-screenshot2.png?raw=true)
+![Homework Screenshot 2](https://github.com/SalasD93/salas-diana.github.io/blob/main/assets/screenshots/ch2-screenshot2.png?raw=true)
 
-![Homework Screenshot 3](https://github.com/SalasD93/SalasD93.github.io/blob/main/assets/screenshots/ch2-screehshot3.png?raw=true)
+![Homework Screenshot 3](https://github.com/SalasD93/salas-diana.github.io/blob/main/assets/screenshots/ch2-screehshot3.png?raw=true)
 
 
 The link for the live website can be found here:
 
-https://salasd93.github.io/
+https://salas-diana.github.io/
 
 The link for the repository of the challenge can be found here:
 
-https://github.com/SalasD93/SalasD93.github.io
+https://github.com/SalasD93/salas-diana.github.io
