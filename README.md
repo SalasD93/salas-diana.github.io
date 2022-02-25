@@ -1,4 +1,4 @@
-# SalasD93.github.io
+# salas-diana.github.io
 This is my personal portfolio.
 
 
