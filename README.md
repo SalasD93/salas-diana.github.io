@@ -48,7 +48,7 @@ The screenshots below exhibit the completed portfolio.
 
 ![Homework Screenshot 2](https://github.com/SalasD93/salas-diana.github.io/blob/main/assets/screenshots/ch2-screenshot2.png?raw=true)
 
-![Homework Screenshot 3](https://github.com/SalasD93/salas-diana.github.io/blob/main/assets/screenshots/ch2-screehshot3.png?raw=true)
+![Homework Screenshot 3](https://github.com/SalasD93/salas-diana.github.io/blob/main/assets/screenshots/ch2-screenshot3.png?raw=true)
 
 
 The link for the live website can be found here:
